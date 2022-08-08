@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/9e36ff4948.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+      <header class="header">
+        <div class="switches">
+          <div id="toggle-theme" class="toggle-theme">
+            <img id="toggle-icon" src="elementos/iconos/oscuro.png" alt="icon theme" class="toggle-theme__icon">
+            <p id="toggle-text" class="toggle-theme__text">Modo oscuro</p>
+          </div>
+        </div>
+        <div id="toggle-colors" class="colors">
+          <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+          <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+          <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        </div>
+      </header>
+      
+      <main class="main">
+        <section class="column column--left">
+          <!--Presentacion-->
+          <article class="card card--profile">
+            <div class="card__image-container">
+              <img src="elementos/imagenes/perfil.gif" alt="">
+            </div>
+            <div class="card__header">
+              <h2 class="card__title no-marging">Ricardo Candelo</h2>
+              <p class="card__subtitle">
+                Fron ebd developer
+              </p>  
+            </div>
+            <div class="card__body">
+              <div class="card__link">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:ricardocandelo07@gmail.com">
+                  ricardocandelo07@gmail.com
+                </a>
+              </div>
+              <div class="card__link">
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:60465647">
+                  +507 60465647
+                </a>
+              </div>
+              <p class="card__text">Desarrollador front-end con conocimiento en diseño, instalación y 
+                pruebas de software. Experiencia en mantenimiento e instalación tanto de hardware como de software. 
+                Conocimiento en metodología de trabajos, buena habilidad de colaboración en un equipo, creativo, 
+                con ganas de seguir aprendiendo.</p>
+            </div>
+          </article>
+          <!--Experiencia-->
+          <article class="card card--experience">
+            <h2 class="card__title">
+              Un poco sobre mi
+            </h2>
+            <div class="experience experience__quiensoy">
+              <video src="elementos/videos/presentacion.mp4" class="experience__video" controls></video>
+            </div>
+          </article>
+          <article class="card card--experience">
+            <h2 class="card__title">
+              Experiencia
+            </h2>
+            <div class="experience">
+              <img src="elementos/imagenes/logo.png" alt="" class="experience__image">
+              <div class="experience__info">
+                <p class="experience__time">
+                  Octube 2014 - Dic 2014
+                </p>
+                <h2 class="experience__job">
+                  Prcatica profecional
+                </h2>
+                <p class="experience__description">
+                  Soporte tecnico
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <!--Experiencia de tecnologias-->
+        <section class="column column--right">
+          <article class="card card--project">
+            <h2 class="section-project">PROYECTO</h2>
+            <div class="card__video-container">
+              <video src="elementos/proyectos/portafolioUTP.mp4" alt="" class="video" muted></video>
+                <div class="container-video">
+                    <span>&times;</span>
+                    <video src="elementos/proyectos/portafolioUTP.mp4" muted autoplay controls></video>
+                    <!--<video class="video-show" src="" alt=""  muted autoplay controls></video>
+                    <i class='bx bx-x'></i>-->
+                </div>
+            </div>
+            <div class="project">
+              <h2 class="card__title">Tecnología utilizada</h2>
+              <div class="project__tags">
+                <span class="project__tag">#HTML</span>
+                <span class="project__tag">#CSS</span>
+                <span class="project__tag">#JavasScript</span>
+                <span class="project__tag">#PHP</span>
+                <span class="project__tag">#MySQL</span>
+                <span class="project__tag">#Bootstrap</span>
+              </div>
+              <h2 class="card__title">Portafolio del semestre</h2>
+              <p class="card__text">
+                Esta es una aplicación web bastante sencilla, en la cual puedo subir los archivos ya sean videos, imagene o documentos y por consiguiente mostrarla al usuario.
+              </p>
+              <p class="card__text">
+                Para la parte logíca utilicé php y MySQL para alojar la informacion, ya el diseño CSS, JS y tambien el framework Bootstrap 
+              </p>
+              <div class="buttons">
+                <a href="https://github.com/ricardocandelo/PortafolioUTP" class="button button--ghost" target="_blank">Code</a>
+              </div>
+             </div>
+          </article>
+          <!--Conocimientos-->
+          <article class="card card__barr">
+            <h2 class="card__title title__barr-head">
+              Conocimientos
+            </h2>
+            <div class="contorn--barr">
+              <div class="section--barr">
+                <h2 class="card__title title__barr">Front End</h2>
+                <small>Experiencia</small>
+                <div class="skills">
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">"100"</span>
+                  </div>
+                  <div class="skills">
+                    <p class="skills__tech">HTML</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                    <p class="skills__tech">CSS</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                    <p class="skills__tech">JavaScript</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contorn--barr">
+              <div class="section--barr">
+                <h2 class="card__title title__barr">DGBA</h2>
+                <small>Experiencia</small>
+                <div class="skills">
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">"100"</span>
+                  </div>
+                  <div class="skills">
+                    <p class="skills__tech">SQL Server</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                    <p class="skills__tech">MySQL</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                    <p class="skills__tech">MariaDB</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contorn--barr">
+              <div class="section--barr">
+                <h2 class="card__title title__barr">Otras</h2>
+                <small>Tiempo de experiencia</small>
+                <div class="skills">
+                  <div class="skills__header">
+                    <span class="skills__start-level">0</span>
+                    <span class="skills__start-level">"100"</span>
+                  </div>
+                  <div class="skills">
+                    <p class="skills__tech">Java</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                    <p class="skills__tech">PHP</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--20"></div>
+                    </div>
+                    <p class="skills__tech">Burótica</p>
+                    <div class="skills__item">
+                      <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article> 
+          <!--formulario-->
+          <article class="card card__form">
+            <h2 class="message-h3">Contacto o sugerencia</h2>
+            <div class="contorn--form">
+              <div class="section--form">
+                <form  name="fomulario-contacto" netlify>
+                  <label for="name" class="name">Nombre</label>
+                  <br/>
+                  <input type="text" name="nombre" id="name">
+                  <br/>
+                  <br/>
+                  <label for="email">Email</label>
+                  <br/>
+                  <input type="email" name="email" id="email">
+                  <br/>
+                  <label for="message" class="message"></label>
+                  <textarea name="message" id="message" cols="30" rows="10" id="message"></textarea>
+                  <br/>
+                  <input type="submit" value="Enviar" id="submit">
+                  <input type="hidden" name="_next" value="htpp://localhost">
+                  <input type="hidden" name="_captcha" value="false">
+                </form>
+              </div>
+            </div>
+          </article> 
+        </section>
+      </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
