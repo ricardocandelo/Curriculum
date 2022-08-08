@@ -11,9 +11,6 @@ const containervid = document.querySelector('.container-video');
 const span = document.querySelector('.container-video span');
 const videocontainer = document.querySelector('.video-show');
 
-const $form =  document.querySelector('#form');
-const $buttonMailto = document.querySelector('#send');
-
 toggleTheme.addEventListener('click', () =>{
     document.body.classList.toggle('dark');
     if(toggleIcon.src.includes('oscuro.png')){
@@ -46,15 +43,5 @@ span.onclick = () =>{
     containervid.style.display='none';
 }
 
-//envio de mensaje
-
-$form.addEventListener('submit', sendmessage);
-function sendmessage(event){
-  event.preventDefault();
-  const form = new FormData(this);
-  console.log(form.get('name'));
-  $buttonMailto.setAttribute('href', `mailto:ricardo.candelo@gmail.com?subject=${form.get('name')}&email=${form.get('email')}&body=${form.get('message')}`);
-  $buttonMailto.click();
-}
 
 
