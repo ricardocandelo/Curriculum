@@ -552,6 +552,9 @@ body.dark{
     margin-top: -6px
 }
 
-
+#send{
+    opacity: 0;
+    display: none;
+}
 
 
