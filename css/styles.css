@@ -315,10 +315,12 @@ body.dark{
     justify-content: center;
 }
 
+
 @media screen and (min-width: 825px){ 
     .card__form{
         display: initial;
         align-content: center;
+        margin-bottom: 2em;
     }
 }
 
@@ -591,6 +593,10 @@ body.dark{
 .section--form #message, .section--form #submit{
     margin-top: 20px;
 
+}
+
+.section--form #submit{
+    margin-top: 15px;
 }
 
 .section--form #submit{
