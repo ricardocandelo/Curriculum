@@ -370,7 +370,7 @@ body.dark{
 .skills__bar::after{
     content: '';
     position: absolute;
-    left: -175px;
+    left: -188px;
     background-color: var(--primary-color);
     transition: var(--transicion);
     animation: skills-bar-fill 2s ease-in-out forwards;
