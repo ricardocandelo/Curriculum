@@ -364,6 +364,7 @@ body.dark{
         width: 90%;
         margin-left: .5em;
 
+
     }
 }
 
@@ -375,6 +376,12 @@ body.dark{
     transition: var(--transicion);
     animation: skills-bar-fill 2s ease-in-out forwards;
 
+}
+@media  screen and (max-width: 580px){
+    .skills__bar::after{
+        left: -90%;
+
+    }
 }
 
 
